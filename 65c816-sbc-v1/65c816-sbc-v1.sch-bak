@@ -250,67 +250,67 @@ BUS_A23
 $Comp
 L 74xx:74HC245 U3
 U 1 1 61C06590
-P 4350 3750
-F 0 "U3" H 3950 4650 50  0000 C CNN
-F 1 "74HC245" H 3950 4500 50  0000 C CNN
-F 2 "" H 4350 3750 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74HC245" H 4350 3750 50  0001 C CNN
-	1    4350 3750
+P 3150 4750
+F 0 "U3" H 2750 5650 50  0000 C CNN
+F 1 "74HC245" H 2750 5500 50  0000 C CNN
+F 2 "" H 3150 4750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74HC245" H 3150 4750 50  0001 C CNN
+	1    3150 4750
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR?
 U 1 1 61C07A0F
-P 4350 2950
-F 0 "#PWR?" H 4350 2800 50  0001 C CNN
-F 1 "+5V" H 4365 3123 50  0000 C CNN
-F 2 "" H 4350 2950 50  0001 C CNN
-F 3 "" H 4350 2950 50  0001 C CNN
-	1    4350 2950
+P 3150 3950
+F 0 "#PWR?" H 3150 3800 50  0001 C CNN
+F 1 "+5V" H 3165 4123 50  0000 C CNN
+F 2 "" H 3150 3950 50  0001 C CNN
+F 3 "" H 3150 3950 50  0001 C CNN
+	1    3150 3950
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 61C07ED0
-P 4350 4550
-F 0 "#PWR?" H 4350 4300 50  0001 C CNN
-F 1 "GND" H 4355 4377 50  0000 C CNN
-F 2 "" H 4350 4550 50  0001 C CNN
-F 3 "" H 4350 4550 50  0001 C CNN
-	1    4350 4550
+P 3150 5550
+F 0 "#PWR?" H 3150 5300 50  0001 C CNN
+F 1 "GND" H 3155 5377 50  0000 C CNN
+F 2 "" H 3150 5550 50  0001 C CNN
+F 3 "" H 3150 5550 50  0001 C CNN
+	1    3150 5550
 	1    0    0    -1  
 $EndComp
-Text GLabel 3850 3250 0    50   Input ~ 0
+Text GLabel 2650 4250 0    50   Input ~ 0
 CPU_D0
-Text GLabel 3850 3350 0    50   Input ~ 0
+Text GLabel 2650 4350 0    50   Input ~ 0
 CPU_D1
-Text GLabel 3850 3450 0    50   Input ~ 0
+Text GLabel 2650 4450 0    50   Input ~ 0
 CPU_D2
-Text GLabel 3850 3550 0    50   Input ~ 0
+Text GLabel 2650 4550 0    50   Input ~ 0
 CPU_D3
-Text GLabel 3850 3650 0    50   Input ~ 0
+Text GLabel 2650 4650 0    50   Input ~ 0
 CPU_D4
-Text GLabel 3850 3750 0    50   Input ~ 0
+Text GLabel 2650 4750 0    50   Input ~ 0
 CPU_D5
-Text GLabel 3850 3850 0    50   Input ~ 0
+Text GLabel 2650 4850 0    50   Input ~ 0
 CPU_D6
-Text GLabel 3850 3950 0    50   Input ~ 0
+Text GLabel 2650 4950 0    50   Input ~ 0
 CPU_D7
-Text GLabel 4850 3250 2    50   Input ~ 0
+Text GLabel 3650 4250 2    50   Input ~ 0
 BUS_D0
-Text GLabel 4850 3350 2    50   Input ~ 0
+Text GLabel 3650 4350 2    50   Input ~ 0
 BUS_D1
-Text GLabel 4850 3450 2    50   Input ~ 0
+Text GLabel 3650 4450 2    50   Input ~ 0
 BUS_D2
-Text GLabel 4850 3550 2    50   Input ~ 0
+Text GLabel 3650 4550 2    50   Input ~ 0
 BUS_D3
-Text GLabel 4850 3650 2    50   Input ~ 0
+Text GLabel 3650 4650 2    50   Input ~ 0
 BUS_D4
-Text GLabel 4850 3750 2    50   Input ~ 0
+Text GLabel 3650 4750 2    50   Input ~ 0
 BUS_D5
-Text GLabel 4850 3850 2    50   Input ~ 0
+Text GLabel 3650 4850 2    50   Input ~ 0
 BUS_D6
-Text GLabel 4850 3950 2    50   Input ~ 0
+Text GLabel 3650 4950 2    50   Input ~ 0
 BUS_D7
 Text GLabel 4850 1250 2    50   Input ~ 0
 BUS_A17
@@ -524,40 +524,40 @@ $EndComp
 $Comp
 L Logic_Programmable:PAL20L8 U5
 U 1 1 61C3B802
-P 6450 4200
-F 0 "U5" H 6200 5250 50  0000 C CNN
-F 1 "PAL20L8" H 6150 5100 50  0000 C CNN
-F 2 "" H 6450 4200 50  0001 C CNN
-F 3 "" H 6450 4200 50  0001 C CNN
-	1    6450 4200
+P 4650 3500
+F 0 "U5" H 4900 4500 50  0000 C CNN
+F 1 "PAL20L8" H 4950 4400 50  0000 C CNN
+F 2 "" H 4650 3500 50  0001 C CNN
+F 3 "" H 4650 3500 50  0001 C CNN
+	1    4650 3500
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+5V #PWR?
 U 1 1 61C3D4DB
-P 6450 3300
-F 0 "#PWR?" H 6450 3150 50  0001 C CNN
-F 1 "+5V" H 6465 3473 50  0000 C CNN
-F 2 "" H 6450 3300 50  0001 C CNN
-F 3 "" H 6450 3300 50  0001 C CNN
-	1    6450 3300
+P 4650 2600
+F 0 "#PWR?" H 4650 2450 50  0001 C CNN
+F 1 "+5V" H 4665 2773 50  0000 C CNN
+F 2 "" H 4650 2600 50  0001 C CNN
+F 3 "" H 4650 2600 50  0001 C CNN
+	1    4650 2600
 	1    0    0    -1  
 $EndComp
-Text GLabel 5950 3500 0    50   Input ~ 0
+Text GLabel 4150 2800 0    50   Input ~ 0
 CPU_BE
-Text GLabel 5950 3600 0    50   Input ~ 0
+Text GLabel 4150 2900 0    50   Input ~ 0
 CPU_PHI2
-Text GLabel 5950 3700 0    50   Input ~ 0
+Text GLabel 4150 3000 0    50   Input ~ 0
 CPU_RW
-Text GLabel 6950 3500 2    50   Input ~ 0
+Text GLabel 5150 2800 2    50   Input ~ 0
 BUS_DEV_OE_N
-Text GLabel 6950 3600 2    50   Input ~ 0
+Text GLabel 5150 2900 2    50   Input ~ 0
 BUS_DEV_WR_N
-Text GLabel 5950 3800 0    50   Input ~ 0
+Text GLabel 4150 3100 0    50   Input ~ 0
 CPU_RDY
-Text GLabel 5950 3900 0    50   Input ~ 0
+Text GLabel 4150 3200 0    50   Input ~ 0
 CPU_VDA
-Text GLabel 5950 4000 0    50   Input ~ 0
+Text GLabel 4150 3300 0    50   Input ~ 0
 CPU_VPA
 Text GLabel 6950 1800 2    50   Input ~ 0
 IO_ROMDIS_N
@@ -629,27 +629,27 @@ BUS_BANK0_OE_N
 $Comp
 L Device:R_Small R2
 U 1 1 61CFF4BB
-P 2500 4300
-F 0 "R2" H 2441 4254 50  0000 R CNN
-F 1 "10K" H 2441 4345 50  0000 R CNN
-F 2 "" H 2500 4300 50  0001 C CNN
-F 3 "~" H 2500 4300 50  0001 C CNN
-	1    2500 4300
+P 1850 4350
+F 0 "R2" H 1791 4304 50  0000 R CNN
+F 1 "10K" H 1791 4395 50  0000 R CNN
+F 2 "" H 1850 4350 50  0001 C CNN
+F 3 "~" H 1850 4350 50  0001 C CNN
+	1    1850 4350
 	-1   0    0    1   
 $EndComp
 Text GLabel 8150 2700 0    50   Input ~ 0
 ROM_0_WE_N
-Text GLabel 2500 4400 3    50   Input ~ 0
+Text GLabel 1850 4450 3    50   Input ~ 0
 ROM_0_WE_N
 $Comp
 L power:+5V #PWR?
 U 1 1 61D08B23
-P 2500 4200
-F 0 "#PWR?" H 2500 4050 50  0001 C CNN
-F 1 "+5V" H 2515 4373 50  0000 C CNN
-F 2 "" H 2500 4200 50  0001 C CNN
-F 3 "" H 2500 4200 50  0001 C CNN
-	1    2500 4200
+P 1850 4250
+F 0 "#PWR?" H 1850 4100 50  0001 C CNN
+F 1 "+5V" H 1865 4423 50  0000 C CNN
+F 2 "" H 1850 4250 50  0001 C CNN
+F 3 "" H 1850 4250 50  0001 C CNN
+	1    1850 4250
 	1    0    0    -1  
 $EndComp
 Text GLabel 5850 6150 2    50   Input ~ 0
@@ -748,23 +748,23 @@ $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 61C3D964
-P 6450 5000
-F 0 "#PWR?" H 6450 4750 50  0001 C CNN
-F 1 "GND" H 6455 4827 50  0000 C CNN
-F 2 "" H 6450 5000 50  0001 C CNN
-F 3 "" H 6450 5000 50  0001 C CNN
-	1    6450 5000
+P 4950 4500
+F 0 "#PWR?" H 4950 4250 50  0001 C CNN
+F 1 "GND" H 4955 4327 50  0000 C CNN
+F 2 "" H 4950 4500 50  0001 C CNN
+F 3 "" H 4950 4500 50  0001 C CNN
+	1    4950 4500
 	1    0    0    -1  
 $EndComp
 $Comp
 L 65xx:W65C22SxP U10
 U 1 1 61D85249
-P 8900 4900
-F 0 "U10" H 8500 6400 50  0000 C CNN
-F 1 "W65C22SxP" H 8500 6300 50  0000 C CIB
-F 2 "" H 8900 5050 50  0001 C CNN
-F 3 "http://www.westerndesigncenter.com/wdc/documentation/w65c22.pdf" H 8900 5050 50  0001 C CNN
-	1    8900 4900
+P 7250 5050
+F 0 "U10" H 6850 6550 50  0000 C CNN
+F 1 "W65C22SxP" H 6850 6450 50  0000 C CIB
+F 2 "" H 7250 5200 50  0001 C CNN
+F 3 "http://www.westerndesigncenter.com/wdc/documentation/w65c22.pdf" H 7250 5200 50  0001 C CNN
+	1    7250 5050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -781,53 +781,112 @@ $EndComp
 $Comp
 L power:+5V #PWR?
 U 1 1 61D978AF
-P 8900 3450
-F 0 "#PWR?" H 8900 3300 50  0001 C CNN
-F 1 "+5V" H 8915 3623 50  0000 C CNN
-F 2 "" H 8900 3450 50  0001 C CNN
-F 3 "" H 8900 3450 50  0001 C CNN
-	1    8900 3450
+P 7250 3600
+F 0 "#PWR?" H 7250 3450 50  0001 C CNN
+F 1 "+5V" H 7265 3773 50  0000 C CNN
+F 2 "" H 7250 3600 50  0001 C CNN
+F 3 "" H 7250 3600 50  0001 C CNN
+	1    7250 3600
 	1    0    0    -1  
 $EndComp
-Text GLabel 8300 4600 0    50   Input ~ 0
+Text GLabel 6650 4750 0    50   Input ~ 0
 BUS_A0
-Text GLabel 8300 4700 0    50   Input ~ 0
+Text GLabel 6650 4850 0    50   Input ~ 0
 BUS_A1
-Text GLabel 8300 4800 0    50   Input ~ 0
+Text GLabel 6650 4950 0    50   Input ~ 0
 BUS_A2
-Text GLabel 8300 4900 0    50   Input ~ 0
+Text GLabel 6650 5050 0    50   Input ~ 0
 BUS_A3
-Text GLabel 8300 3900 0    50   Input ~ 0
+Text GLabel 6650 4050 0    50   Input ~ 0
 CPU_PHI2
-Text GLabel 8300 3800 0    50   Input ~ 0
+Text GLabel 6650 3950 0    50   Input ~ 0
 CPU_RESN
-Text GLabel 8300 5100 0    50   Input ~ 0
+Text GLabel 6650 5250 0    50   Input ~ 0
 BUS_DEV_WR_N
-Text GLabel 8300 5300 0    50   Input ~ 0
+Text GLabel 6650 5450 0    50   Input ~ 0
 BUS_D0
-Text GLabel 8300 5400 0    50   Input ~ 0
+Text GLabel 6650 5550 0    50   Input ~ 0
 BUS_D1
-Text GLabel 8300 5500 0    50   Input ~ 0
+Text GLabel 6650 5650 0    50   Input ~ 0
 BUS_D2
-Text GLabel 8300 5600 0    50   Input ~ 0
+Text GLabel 6650 5750 0    50   Input ~ 0
 BUS_D3
-Text GLabel 8300 5700 0    50   Input ~ 0
+Text GLabel 6650 5850 0    50   Input ~ 0
 BUS_D4
-Text GLabel 8300 5800 0    50   Input ~ 0
+Text GLabel 6650 5950 0    50   Input ~ 0
 BUS_D5
-Text GLabel 8300 5900 0    50   Input ~ 0
+Text GLabel 6650 6050 0    50   Input ~ 0
 BUS_D6
-Text GLabel 8300 6000 0    50   Input ~ 0
+Text GLabel 6650 6150 0    50   Input ~ 0
 BUS_D7
 $Comp
 L Device:D_Small_ALT D1
 U 1 1 61DCE9A6
-P 8200 4100
-F 0 "D1" H 8200 4000 50  0000 C CNN
-F 1 "1n4148" H 8200 4200 50  0000 C CNN
-F 2 "" V 8200 4100 50  0001 C CNN
-F 3 "~" V 8200 4100 50  0001 C CNN
-	1    8200 4100
+P 6550 4250
+F 0 "D1" H 6550 4150 50  0000 C CNN
+F 1 "1n4148" H 6550 4350 50  0000 C CNN
+F 2 "" V 6550 4250 50  0001 C CNN
+F 3 "~" V 6550 4250 50  0001 C CNN
+	1    6550 4250
 	-1   0    0    1   
+$EndComp
+Text GLabel 6450 4250 0    50   Input ~ 0
+CPU_IRQN
+Text GLabel 7850 3950 2    50   Input ~ 0
+IO_ROMDIS_N
+$Comp
+L 65xx:W65C51NxP U11
+U 1 1 61C0C3EA
+P 9800 4650
+F 0 "U11" H 9350 6200 50  0000 C CNN
+F 1 "W65C51NxP" H 9350 6050 50  0000 C CIB
+F 2 "" H 9800 4800 50  0001 C CNN
+F 3 "http://www.westerndesigncenter.com/wdc/documentation/w65c51n.pdf" H 9800 4800 50  0001 C CNN
+	1    9800 4650
+	1    0    0    -1  
+$EndComp
+Text GLabel 9200 4850 0    50   Input ~ 0
+BUS_DEV_WR_N
+Text GLabel 9200 5050 0    50   Input ~ 0
+BUS_D0
+Text GLabel 9200 5150 0    50   Input ~ 0
+BUS_D1
+Text GLabel 9200 5250 0    50   Input ~ 0
+BUS_D2
+Text GLabel 9200 5350 0    50   Input ~ 0
+BUS_D3
+Text GLabel 9200 5450 0    50   Input ~ 0
+BUS_D4
+Text GLabel 9200 5550 0    50   Input ~ 0
+BUS_D5
+Text GLabel 9200 5650 0    50   Input ~ 0
+BUS_D6
+Text GLabel 9200 5750 0    50   Input ~ 0
+BUS_D7
+Text GLabel 9200 4350 0    50   Input ~ 0
+BUS_A0
+Text GLabel 9200 4450 0    50   Input ~ 0
+BUS_A1
+$Comp
+L power:+5V #PWR?
+U 1 1 61CA0366
+P 9800 3200
+F 0 "#PWR?" H 9800 3050 50  0001 C CNN
+F 1 "+5V" H 9815 3373 50  0000 C CNN
+F 2 "" H 9800 3200 50  0001 C CNN
+F 3 "" H 9800 3200 50  0001 C CNN
+	1    9800 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61CA12FA
+P 9800 6100
+F 0 "#PWR?" H 9800 5850 50  0001 C CNN
+F 1 "GND" H 9805 5927 50  0000 C CNN
+F 2 "" H 9800 6100 50  0001 C CNN
+F 3 "" H 9800 6100 50  0001 C CNN
+	1    9800 6100
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
