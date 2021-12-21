@@ -1078,4 +1078,10 @@ Text GLabel 4250 10100 0    50   Input ~ 0
 BUS_DA_LATCH_OE_N
 Text GLabel 6650 10050 0    50   Input ~ 0
 BUS_DA_LATCH_OE_N
+Text GLabel 2650 6950 2    50   Input ~ 0
+BUS_IO_DEVICE_EN
+Text GLabel 6900 1600 0    50   Input ~ 0
+BUS_IO_DEVICE_EN
+Text GLabel 12050 6050 0    50   Input ~ 0
+BUS_IO_DEVICE_EN
 $EndSCHEMATC
