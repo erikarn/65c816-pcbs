@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name 65xx)(type Legacy)(uri /home/adrian/git/github/erikarn/65c816-pcbs/libraries/65xx/65xx.lib)(options "")(descr ""))
+  (lib (name microchip_GAL)(type Legacy)(uri ${KIPRJMOD}/microchip_GAL.lib)(options "")(descr ""))
 )
